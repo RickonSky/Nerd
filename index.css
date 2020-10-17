@@ -10,8 +10,6 @@ header{
 	background-color: hsl(220, 90%, 10%);
 	height: 60px;
 	z-index: 5;
-
-	
 }
 h1{
 	font-family:cursive;
@@ -55,7 +53,6 @@ section#uno{
 	top:78px;
 	left: 180px;
 	display: inline-table;
-
 	/**float: left;**/
 }
 div{
