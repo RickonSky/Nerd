@@ -1,5 +1,6 @@
 body{
 	text-align: center;
+
 }
 header{
 	text-align: left;
@@ -43,12 +44,12 @@ section#uno{
 	font-family: italic;
 	color: white;
 	width: 1100px;
-	padding-left: 15px;
-	margin-right: -30px;
-	padding-right: 100px;
+	padding-left: 33px;
+	margin-right: 10px;
+	padding-right: 20px;
 	font-weight: bold;
 	/**overflow: auto;**/
-	background-color: hsla(200, 100%, 50%, 0.3);
+	background-color: hsl(190, 100%, 08%);
 	height: 544px;
 	position: absolute;
 	top:78px;
