@@ -1,19 +1,32 @@
 body{
 	text-align: center;
+/*	background-color: red;
+*/	position: static;
+/*	display: flex;
+*/	margin-bottom: 0px;
+	margin-right: 0px;
+	min-width: 520px;
 
 }
 header{
 	text-align: left;
 	color: white;
+	width: auto;
 	padding:5px 4px 15px 4px;
-	margin:-10px -9px 0px -8px;
+	margin:-10px -8px 0px -8px;
 	background-color: hsl(220, 90%, 10%);
 	height: 60px;
 	z-index: 5;
+
 }
 h1{
 	font-family:cursive;
 }
+i{
+	font-size: small;
+	color: teal;
+}
+
 nav{
 	background-color: teal;
 	margin-left: -8px;
@@ -21,7 +34,10 @@ nav{
 	height: 544px;
 	width: 180px;
 	text-align: left;
+	position: relative;
+	z-index: 6;
 }
+
 a.navbar{
 	display: block;
 	border-bottom: 2px solid lightblue;
@@ -33,17 +49,30 @@ a.navbar{
 	z-index: 8;
 
 }
+a:hover{
+	cursor: pointer;
+	font-size: 20px;
+	color: cyan;
+}
 
-li{
+/*li{
 	list-style: red circle;
-	/**display: inline-block;**/
+	*display: inline-block;*
+}*/
+div{
+	display:table-cell;
+	vertical-align: middle;
+	width: 1304px;
+	min-width: 303px;
+	margin: 0px;
 }
 section#uno{
+	z-index: 2;
 	font-family: italic;
 	color: white;
-	width: 1100px;
-	padding-left: 33px;
-	margin-right: 10px;
+	width: auto;
+	padding-left: 213px;
+	margin-right: -8px;
 	padding-right: 20px;
 	font-weight: bold;
 	/**overflow: auto;**/
@@ -51,33 +80,11 @@ section#uno{
 	height: 544px;
 	position: absolute;
 	top:78px;
-	left: 180px;
+	left: 0px;
+	/**right: 20px;**/
 	display: inline-table;
 	/**float: left;**/
-}
-div{
-	display:table-cell;
-	vertical-align: middle;
-}
-aside#dos{
-	background-color: teal;
-	height: 544px;
-	width: 20px;
-	display:inline-table;
-	position: absolute;
-	top: 78px;
-	right: 0px;
 
-}
-a#slider{
-	text-decoration: none;
-	color: white;
-	font-size: 30px;
-}
-a:hover{
-	cursor: pointer;
-	font-size: 20px;
-	color: cyan;
 }
 p{
 	border-left: lightblue;
@@ -89,6 +96,24 @@ p{
 	display:table-cell;
 	vertical-align: middle;
 }
+
+/*aside#dos{
+	background-color: teal;
+	height: 544px;
+	width: 20px;
+	display:inline-table;
+	position: absolute;
+	top: 78px;
+	right: 0px;
+
+}*/
+/*a#slider{
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+}*/
+
+
 footer{
 	color: white;
 	background-color:  hsl(220, 90%, 10%);
@@ -97,8 +122,4 @@ footer{
 	margin-bottom: -20px;
 	padding: 10px 0px 20px 0px;
 
-}
-i{
-	font-size: small;
-	color: teal;
 }

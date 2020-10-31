@@ -1,7 +1,19 @@
-const vals = [left, center, right]
-let period = setTimer(5000)
-let elem = selectElementsByTag("header")
+let vals = ["left", "center", "right"];
+var m = document.getElementsByTagName("header");
+// m[0].style.textAlign = vals[1];
 
-while (period < 5000) do {
 
-}
+
+// let elem = document.getElementsByTagName("header");
+window.load(setInterval(mover, 2000));
+function mover(){
+	while(i < vals.length) {
+		if(i >= 3 ){
+			i = 0;
+		}
+		m[0].style.textAlign = vals[i]
+	}
+	
+
+
+
