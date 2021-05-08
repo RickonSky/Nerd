@@ -5,10 +5,10 @@ let memb_details = {
 	fave : "text/n about /nfave",
 }
 let pics_src = {
-	rick : "Capture.JPG",
-	sidd : "20180205_094802.jpg", 
-	solo : "IMG_20201101_222247.jpg",
-	fave : "IMG_20201101_223049_422.jpg",
+	rick : "https://robohash.org/uno",
+	sidd : "https://robohash.org/deux", 
+	solo : "https://robohash.org/tres",
+	fave : "https://robohash.org/quatre",
 }
 let memb_arr = ["rick", "sidd", "solo", "fave"]
 
